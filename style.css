@@ -1,0 +1,64 @@
+
+
+.heading{
+    display: grid;
+    align-content: center;
+    justify-items: start;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #8159c2, #e64848, #6a06ec);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .gradient-silver {
+    background: linear-gradient(300deg, #787281, #474444, #050505);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+
+  .gradient-purple {
+    background: linear-gradient(300deg, #461a61, #504099, #313866);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .logos{
+    mix-blend-mode: color-burn;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+.education-logo{
+border-radius: 20px;
+}
+
+#part2{
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 80px;
+}
+
+.skills-text{
+  text-align: center;
+}
+
+.certificate-img{
+  width:80%;
+  margin-left:10%;
+}
